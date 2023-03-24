@@ -1,0 +1,116 @@
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>Optima23</title>
+
+  <!--responsive-meta-here-->
+  <meta name="viewport" content="minimum-scale=1.0, maximum-scale=1.0,width=device-width, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <!--responsive-meta-end--> 
+
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/mdb.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/owl.carousel.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/fontawesome-all.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/fontawesome.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/sponsers.css" rel="stylesheet"/>
+
+</head>
+<body>
+<!--   <ul id="elements">
+      <li id="float">AVINASH KUMAR PANDEY (Batch: 2018-2020)</li>
+      <li id="float">MAHANAPRIYA (Batch: 2009-2011)</li>
+      <li id="float">TRUPTI BALIGA B (Batch: 2016-2018)</li>
+      <li id="float">PRAVEEN KUMAR (Batch: 2005-2007)</li>
+      <li id="float">KAYALVIZHI (Batch: 2016-2018)</li>
+      <li id="float">RAKSHIT G DWAR</li>
+      <li id="float">MOHAMMEDSIPLI M</li>
+    </ul> -->
+  <div class="wraper">
+    <!-- header -->
+    <header class="sticky-top">
+      <nav class="container navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.png" alt="site-logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="index.html" class="nav-link waves-effect waves-light">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="Dashboard.html" class="nav-link waves-effect waves-light">Events</a>
+            </li>
+            <li class="nav-item">
+              <a href="Schedule.html" class="nav-link waves-effect waves-light">Event Schedule</a>
+            </li>
+            <li class="nav-item">
+              <a href="Contact-us.html" class="nav-link waves-effect waves-light">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="Sponsers.html" class="nav-link waves-effect waves-light">Our Sponsers</a>
+            </li>
+          </ul>
+          <div class="header-buttons">
+            <a href="login.html" class="btn btn-outline">Login</a>
+            <a href="Sign-up.html" class="btn btn-blue">Signup</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- header -->
+
+    <img src="images/sponser1.jpg" style="max-width: 100%;max-height: 100vh;margin: auto;display: grid;height: 100%;">
+  </div>
+
+</body>
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>   
+<script type="text/javascript" src="js/bootstrap.min.js"></script>  
+<script type="text/javascript" src="js/mdb.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script type="text/javascript">
+$(window).scroll(function(){var body=$('body'),scroll=$(window).scrollTop();if(scroll>=5){body.addClass('fixed');}else{body.removeClass('fixed');}});
+</script>
+<script type="text/javascript">
+  $('.home-slider-carousel').owlCarousel({
+          loop:true,
+          nav:true,
+          dot:true,
+          responsive:{
+              0:{
+                  items:1
+              },
+              600:{
+                  items:1
+              },
+              1000:{
+                  items:1
+              }
+          }
+        });
+</script>
+<script>
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
+</script>
+<script type="text/javascript">
+  $(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+});
+</script>
+</html>
